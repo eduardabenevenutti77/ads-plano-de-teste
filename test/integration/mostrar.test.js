@@ -20,13 +20,13 @@ describe('Teste de listar todas as pessoas', () => {
     it('Deve listar todas as pessoas cadastradas', async () => {
         // Adicionar algumas pessoas para o teste
         const mockPessoa1 = {
-            nome: "Pessoa 1",
-            email: "pessoa1@gmail.com",
+            nome: "Ana Júlia",
+            email: "anaju@gmail.com",
             senha: "senha123"
         };
         const mockPessoa2 = {
-            nome: "Pessoa 2",
-            email: "pessoa2@gmail.com",
+            nome: "Ana Amanda",
+            email: "anaamanda@gmail.com",
             senha: "senha456"
         };
 

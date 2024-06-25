@@ -26,8 +26,8 @@ describe('Teste de Alterar pessoa', () => {
         const nomeDaPessoa = mockPessoa.nome;
       
         const mockPessoaUpdate = {
-          email: "updated@domain.com",
-          senha: "update#password"
+          email: "alicecunhaaa@domain.com",
+          senha: "@Abacate123"
         };
       
         const dataValue = await servico.Alterar(nomeDaPessoa, mockPessoaUpdate, this.transaction);
